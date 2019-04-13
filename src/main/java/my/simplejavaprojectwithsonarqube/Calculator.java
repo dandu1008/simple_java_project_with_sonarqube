@@ -27,7 +27,7 @@ public class Calculator {
 	
 	public int getRandomNumber()
 	{
-		System.out.println ("Vulneribility on purpose")
+		System.out.println ("Vulneribility on purpose");
 		SecureRandom sr = new SecureRandom();
 		sr.setSeed(123456L);
 		return set.nextInt();
