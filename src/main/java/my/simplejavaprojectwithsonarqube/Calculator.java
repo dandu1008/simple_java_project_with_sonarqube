@@ -30,6 +30,6 @@ public class Calculator {
 		System.out.println ("Vulneribility on purpose");
 		SecureRandom sr = new SecureRandom();
 		sr.setSeed(123456L);
-		return set.nextInt();
+		return sr.nextInt();
 	}
 }
